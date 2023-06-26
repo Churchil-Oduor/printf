@@ -3,7 +3,7 @@
 
 #include <stdarg.h>
 int _printf(const char *format, ...);
-void our_putchar(char *c, int n);
+void custom_putchar(char *c, int n);
 int _strlen(char *str);
 int fill_str(char *buffer, char *str, int index);
 void fill_int(char *str, int index);
