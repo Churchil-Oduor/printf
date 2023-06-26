@@ -23,6 +23,6 @@ int fill_str(char *buffer, char *str, int index)
 		buffer[index] = str[n];
 		index++;
 	}
-
+	
 	return (index);
 }
