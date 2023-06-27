@@ -2,10 +2,10 @@
 
 
 /**
- * fill_octal - fill binary values to buffer.
+ * fill_octal - fill octal values to buffer.
  *
  * @buffer: buffer to be filled.
- * @value: number to be converted to hexadecimal number.
+ * @value: number to be converted to octal number.
  * @index: start position.
  * Return: last filled index.
  */
@@ -31,15 +31,15 @@ int fill_octal(char *buffer, unsigned int value, int index)
 
 
 /**
- * to_octal - converts decimal to binary;
+ * to_octal - converts decimal to octal.
  *
  * @value: decimal number to be converted.
- * Return: pointer to string containing binary.
+ * Return: pointer to string containing octal.
  */
 
 char *to_octal(unsigned int value)
 {
-	
+
 	const char *octal_table = "01234567";
 	char *octal, *rev_octal;
 	int len, i;
@@ -68,10 +68,10 @@ char *to_octal(unsigned int value)
 
 
 /**
- * len_octal - gets length of binary number.
+ * len_octal - gets length of octal number.
  *
  * @value: value to be checked.
- * Return: length of binary number.
+ * Return: length of octal number
  */
 
 int len_octal(unsigned int value)

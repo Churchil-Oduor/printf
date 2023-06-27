@@ -13,7 +13,7 @@
 
 int fill_int(char *buffer, int number, int index)
 {
-	
+
 	const char *table = "0123456789";
 	char *str;
 	int rem, str_space, count, i, is_negative;

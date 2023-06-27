@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * our_putchar - prints on terminal ensures that only <= 1024 chars are printed.
+ * custom_putchar - prints on terminal ensures that
+ * only <= 1024 chars are printed.
  * @c: string to be filled.
  * @n: index.
  *
